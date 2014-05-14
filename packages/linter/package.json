@@ -1,0 +1,36 @@
+{
+  "name": "linter",
+  "main": "./lib/init",
+  "version": "0.2.24",
+  "private": true,
+  "description": "Validates your code using linters.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtomLinter/Linter.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "jshint": "^2.4.4",
+    "lodash": "^2.4.1",
+    "emissary": "^1.0.0",
+    "shelljs": "^0.2.6",
+    "font-awesome": "4.0.3",
+    "temp": "0.6.0",
+    "xregexp": "2.0.0"
+  },
+  "readme": "# Linter\n\nLint you code with ease in [Atom](http://atom.io).\n\n![linter-jscs](https://github.com/AtomLinter/linter-jscs/raw/master/example.gif)\n\nThe idea is to stop linters plugins war, by providing top level api for linters to parse and display errors in Atom editor.\n\n## Available linters\n- [linter-php](https://atom.io/packages/linter-php), for PHP using `php -l`\n- [linter-phpcs](https://atom.io/packages/linter-phpcs), for PHP, using `phpc`\n- [linter-phpmd](https://atom.io/packages/linter-phpmd), for PHP, using `phpmd`\n- [linter-jshint](https://atom.io/packages/linter-jshint), for JavaScript, using `jshint`\n- [linter-jscs](https://atom.io/packages/linter-jscs), for JavaScript, using `jscs`\n- [linter-scss-lint](https://atom.io/packages/linter-scss-lint), for SASS/SCSS, using `scss-lint`\n- [linter-coffeelint](https://atom.io/packages/linter-coffeelint), for CoffeeScript, using `coffeelint`\n- [linter-csslint](https://atom.io/packages/linter-csslint), for CSS using `csslint`\n- [linter-rubocop](https://atom.io/packages/linter-rubocop), for Ruby using `rubocop`\n- [linter-tslint](https://atom.io/packages/linter-tslint), for JavaScript using `tslint`\n\n## Features\n\n* **Lint on edit** - instant error reporting for you! (And it's fast).\n* **Modular** - you install only the linters you need.\n* **Active** - new linters are out every week.\n\n## Installation\n\n1. `$ apm install linter` - Install the main package.\n2. `$ apm install linter-jshint` - Install the linter you need, here `jshint`.\n\n## Commons errors\n\n* `env: node: No such file or directory` - there's a problem with your node path, [check this](http://stackoverflow.com/a/20077620).\n\n## Coming soon\n\n- linter-pep257, for python using `pep257`.\n- linter-xmllint, for XML using `xmllint`.\n- linter-shellcheck, for Bash using `shellcheck`.\n- linter-ruby, for ruby using `ruby -wc`.\n- linter-rst, for reStructuredText using `docutils`.\n- linter-pylint, for python using `pylint`.\n- linter-pyflakes, for python using `pyflakes`.\n- linter-phplint, for PHP using `phplint`.\n- linter-pep8, for python using `pep8`.\n- linter-lua, for Lua using `luac -p`.\n- linter-jsxhint, for JSX (React.js) using `jsxhint`.\n- linter-json, for JSON using `json-lint`.\n- linter-jsl, for JavaScript using `jsl`.\n- linter-oclitnt, for C / C++ / Objective-C using `OCLint`.\n- linter-clang, for C / C++ using `clang`.\n\n## Donation\n![Share the love!](https://chewbacco-stuff.s3.amazonaws.com/donate.png)\n[![donate-paypal](https://s3-eu-west-1.amazonaws.com/chewbacco-stuff/donate-paypal.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KXUYS4ARNHCN8)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/AtomLinter/Linter/issues"
+  },
+  "homepage": "https://github.com/AtomLinter/Linter",
+  "_id": "linter@0.2.24",
+  "dist": {
+    "shasum": "af313fa29c2f51661dc6863c56624d7682b77ca2"
+  },
+  "_resolved": "/var/folders/0h/4xvt5xnd3wq7s3w0pwx_hnx80000gn/T/d-114414-11709-qio02i/package.tgz",
+  "_from": "/var/folders/0h/4xvt5xnd3wq7s3w0pwx_hnx80000gn/T/d-114414-11709-qio02i/package.tgz"
+}

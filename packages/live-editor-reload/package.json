@@ -1,0 +1,32 @@
+{
+  "name": "live-editor-reload",
+  "description": "A small utility for developing Atom packages. Automatically reload Atom when you save a file that's part of an Atom package.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Cory Roloff",
+    "url": "http://coryroloff.com"
+  },
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coryroloff/atom-live-editor-reload"
+  },
+  "license": {
+    "name": "MIT",
+    "url": "https://github.com/coryroloff/atom-live-editor-reload/blob/master/LICENSE"
+  },
+  "readme": "# live-editor-reload\n\n> A small utility for developing Atom packages. Automatically reload Atom when you save a file that's part of an Atom package.\n\n**Requirements:**\n\n- Editor must be in dev mode\n- Atom must be listed in package's engines",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/coryroloff/atom-live-editor-reload/issues"
+  },
+  "homepage": "https://github.com/coryroloff/atom-live-editor-reload",
+  "_id": "live-editor-reload@0.1.0",
+  "dist": {
+    "shasum": "ac887c2f556828fefa6d989486d5726f7d9d90b2"
+  },
+  "_resolved": "/var/folders/0h/4xvt5xnd3wq7s3w0pwx_hnx80000gn/T/d-114414-11367-qvqa9u/package.tgz",
+  "_from": "/var/folders/0h/4xvt5xnd3wq7s3w0pwx_hnx80000gn/T/d-114414-11367-qvqa9u/package.tgz"
+}
