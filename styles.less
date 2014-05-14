@@ -1,0 +1,121 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+
+.tree-view {
+  ol.entries.list-tree li {
+    font-size: 8pt;
+
+    span.icon:before {
+      font-size: 8pt;
+    }
+  }
+
+  .list-item {
+    &:before {
+      margin-right: 0 !important;
+    }
+  }
+}
+
+.editor {
+  .cursor {
+    border-left-width: 2px;
+  }
+
+  .invisible-character {
+    color: rgba(197, 200, 198, 0.2);
+  }
+}
+
+.editor .cursor {
+
+}
+
+.vertical {
+  .pane {
+    filter: alpha(opacity=40);
+    -webkit-opacity:0.40;
+    opacity:0.40;
+
+    &.active {
+      filter: alpha(opacity=100);
+      -webkit-opacity: 1.0;
+      opacity: 1.0;
+    }
+  }
+
+  .panes .pane-row > * {
+    border-right: 1px solid rgba(150, 150, 150, 0.2);
+  }
+  .panes .pane-column > * {
+    border-bottom: 1px solid rgba(150, 150, 150, 0.2);
+  }
+}
+
+.tab-bar {
+  padding: 0;
+
+  .tab{
+    top: 0;
+    border: 1px solid #b9b9b9;
+    border-bottom: 0;
+    margin: 0;
+    padding: 0 10px 0 0;
+    border-top: 0;
+    border-left: 0;
+    border-top-right-radius: 0;
+    max-width: 140px;
+    height: 31px;
+    line-height: 31px;
+
+    &.active, &:before {
+      height: 32px;
+      line-height: 30px;
+    }
+
+    .title {
+      margin: 0 10px;
+      font-size: 8pt;
+    }
+
+    .close-icon {
+      right: 5px;
+    }
+  }
+}
+
+// Used when using Solarized Dark
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0);
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+}
+
+::-webkit-scrollbar-track {
+  background-color: #444;
+  box-shadow: 0 0 5px black inset;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  box-shadow: 0 0 1px black inset;
+  background-color: rgba(255, 255, 255, 0.15);
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #111;
+  box-shadow: 0 0 2px black inset;
+}

@@ -1,0 +1,32 @@
+'exception-reporting':
+  'userId': 'd16219e3-4bf4-7664-6165-a798a328c2c1'
+'release-notes':
+  'viewedVersion': '0.95.0-7cdaaf2'
+'welcome':
+  'showOnStartup': false
+'metrics':
+  'userId': 'b4de144f5c2e8756333e18bc52fa2795ead5e61d'
+'editor':
+  'fontSize': 14
+  'fontFamily': 'Ricty'
+  'showIndentGuide': true
+  'showInvisibles': true
+'core':
+  'themes': [
+    'atom-dark-ui'
+    'railscasts-theme'
+  ]
+
+'autocomplete-plus':
+  'includeCompletionsFromAllBuffers': true
+  'liveCompletion': true
+
+# for linter
+'linter-rubocop':
+  '/Users/ONDA/.rbenv/shims/rubocop'
+
+'linter-jshint':
+  '/Users/ONDA/.nodebrew/current/bin/jshint'
+
+'linter-coffeelint':
+  '/Users/ONDA/.nodebrew/current/bin/coffeelint'
