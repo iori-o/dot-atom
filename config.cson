@@ -16,17 +16,10 @@
     'atom-dark-ui'
     'railscasts-theme'
   ]
-
 'autocomplete-plus':
   'includeCompletionsFromAllBuffers': true
   'liveCompletion': true
-
-# for linter
-'linter-rubocop':
-  '/Users/ONDA/.rbenv/shims/rubocop'
-
-'linter-jshint':
-  '/Users/ONDA/.nodebrew/current/bin/jshint'
-
-'linter-coffeelint':
-  '/Users/ONDA/.nodebrew/current/bin/coffeelint'
+'linter-rubocop': '/Users/ONDA/.rbenv/shims/rubocop'
+'linter-jshint': '/Users/ONDA/.nodebrew/current/bin/jshint'
+'linter-coffeelint': '/Users/ONDA/.nodebrew/current/bin/coffeelint'
+'highlight-line': {}
