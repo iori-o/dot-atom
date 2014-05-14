@@ -3,7 +3,7 @@ dot-atom
 
 atom setting files
 
-## Instalation
+## Installation
 
 ```bash
 % git clone git@github.com:iori-o/dot-atom.git .atom
