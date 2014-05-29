@@ -22,4 +22,7 @@
 'linter-rubocop': '/Users/ONDA/.rbenv/shims/rubocop'
 'linter-jshint': '/Users/ONDA/.nodebrew/current/bin/jshint'
 'linter-coffeelint': '/Users/ONDA/.nodebrew/current/bin/coffeelint'
-'highlight-line': {}
+'highlight-line':
+  'enableUnderline': true
+'recent-files':
+  'updated': false
