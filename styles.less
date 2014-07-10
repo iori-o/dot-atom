@@ -13,13 +13,13 @@
     font-size: 8pt;
 
     span.icon:before {
-      font-size: 8pt;
+      font-size: 12pt;
     }
   }
 
   .list-item {
     &:before {
-      margin-right: 0 !important;
+      margin-right: 2 !important;
     }
   }
 }
@@ -43,67 +43,53 @@
   }
 }
 
-.editor .cursor {
-
-}
-
 .vertical {
   .pane {
-    filter: alpha(opacity=40);
-    -webkit-opacity:0.40;
     opacity:0.40;
 
     &.active {
-      filter: alpha(opacity=100);
-      -webkit-opacity: 1.0;
       opacity: 1.0;
     }
+
+    ul.list-inline.tab-bar {
+      height:      27px;
+      line-height: 27px;
+
+      li.tab, li.tab.active {
+        height: 20px;
+        top:    2px;
+        cursor: pointer;
+
+        &.modified:not(:hover) .close-icon {
+          top:    6px;
+          height: 8px;
+          width:  8px;
+        }
+
+        &:before, .title, .close-icon {
+          height:      20px;
+          line-height: 20px;
+          font-size:    9pt;
+          cursor:      pointer;
+        }
+
+        .close-icon:hover {
+          color: #f88;
+        }
+      }
+    }
   }
 
-  .panes .pane-row > * {
-    border-right: 1px solid rgba(150, 150, 150, 0.2);
-  }
+  .panes .pane-row > *,
   .panes .pane-column > * {
-    border-bottom: 1px solid rgba(150, 150, 150, 0.2);
-  }
-}
-
-.tab-bar {
-  padding: 0;
-
-  .tab{
-    top: 0;
-    border: 1px solid #b9b9b9;
-    border-bottom: 0;
-    margin: 0;
-    padding: 0 10px 0 0;
-    border-top: 0;
-    border-left: 0;
-    border-top-right-radius: 0;
-    max-width: 140px;
-    height: 31px;
-    line-height: 31px;
-
-    &.active, &:before {
-      height: 32px;
-      line-height: 30px;
-    }
-
-    .title {
-      margin: 0 10px;
-      font-size: 8pt;
-    }
-
-    .close-icon {
-      right: 5px;
-    }
+    border-right: 1px solid rgba(150, 150, 150, 0.2);
   }
 }
 
 // Used when using Solarized Dark
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   background-color: rgba(0, 0, 0, 0);
   &:hover {
     background-color: rgba(0, 0, 0, 0.15);
