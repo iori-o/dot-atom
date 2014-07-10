@@ -4,3 +4,5 @@ dev
 .npm
 .node-gyp
 packages/*
+npm-debug.log
+projects.cson
