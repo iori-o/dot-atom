@@ -18,3 +18,9 @@
 #
 '.editor':
   'ctrl-cmd-i': 'auto-indent:apply'
+
+'.editor:not(.mini)'
+  'ctrl-S': 'snippets:expand'
+
+".autocomplete-plus input.hidden-input":
+  "enter": "autocomplete-plus:confirm"
