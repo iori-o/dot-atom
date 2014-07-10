@@ -7,22 +7,32 @@
 'metrics':
   'userId': 'b4de144f5c2e8756333e18bc52fa2795ead5e61d'
 'editor':
-  'fontSize': 14
   'fontFamily': 'Ricty'
   'showIndentGuide': true
   'showInvisibles': true
+  'fontSize': 13
 'core':
   'themes': [
     'atom-dark-ui'
-    'railscasts-theme'
+    'railscast-theme'
   ]
 'autocomplete-plus':
   'includeCompletionsFromAllBuffers': true
   'liveCompletion': true
-'linter-rubocop': '/Users/ONDA/.rbenv/shims/rubocop'
-'linter-jshint': '/Users/ONDA/.nodebrew/current/bin/jshint'
-'linter-coffeelint': '/Users/ONDA/.nodebrew/current/bin/coffeelint'
 'highlight-line':
   'enableUnderline': true
 'recent-files':
   'updated': false
+'tree-view': {}
+'linter-coffeelint':
+  '/Users/ONDA/.nodebrew/current/bin/coffeelint'
+'linter-jshint':
+  '/Users/ONDA/.nodebrew/current/bin/jshint'
+'linter-rubocop':
+  '/Users/ONDA/.rbenv/shims/rubocop'
+'linter-shellcheck':
+  'linter-shellcheck'
+
+'rspec':
+  'command': 'bundle exec rspec'
+  
