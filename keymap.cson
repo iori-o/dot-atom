@@ -18,6 +18,8 @@
 #
 '.editor':
   'ctrl-cmd-i': 'auto-indent:apply'
+  'cmd-m': 'minimap:toggle'
+  'cmd-d': 'minimap:toggle-debug'
 
 '.editor:not(.mini)':
   'ctrl-S': 'snippets:expand'
