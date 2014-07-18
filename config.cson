@@ -24,15 +24,16 @@
 'recent-files':
   'updated': false
 'tree-view': {}
-'linter-coffeelint':
-  '/Users/ONDA/.nodebrew/current/bin/coffeelint'
-'linter-jshint':
-  '/Users/ONDA/.nodebrew/current/bin/jshint'
-'linter-rubocop':
-  '/Users/ONDA/.rbenv/shims/rubocop'
-'linter-shellcheck':
-  'linter-shellcheck'
-
+'linter-coffeelint': '/Users/ONDA/.nodebrew/current/bin/coffeelint'
+'linter-jshint': '/Users/ONDA/.nodebrew/current/bin/jshint'
+'linter-rubocop': '/Users/ONDA/.rbenv/shims/rubocop'
+'linter-shellcheck': 'linter-shellcheck'
 'rspec':
   'command': 'bundle exec rspec'
-  
+'gist-it':
+  'userToken': 'a200929c1564ab8192b1358c08be2cf79065b83d'
+'linter':
+  'lintDebug': true
+  'showStatusBarWhenCursorIsInErrorRange': true
+'travis-ci-status':
+  'personalAccessToken': 'a3e950088735c2ae559c54c44d9bfbd67bb28d4e'
