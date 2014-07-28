@@ -16,6 +16,7 @@
     'atom-dark-ui'
     'railscast-theme'
   ]
+  'useReactEditor': true
 'autocomplete-plus':
   'includeCompletionsFromAllBuffers': true
   'liveCompletion': true
