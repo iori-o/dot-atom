@@ -28,3 +28,5 @@ atom.workspaceView.eachEditorView ->
   view    = atom.workspaceView[0]
   uiTheme.forEach (el) ->
     view.className = view.className.replace(' ' + el, '') + " " + el
+
+process.env.PATH = ["/tmp/bin", process.env.PATH].join(":")
