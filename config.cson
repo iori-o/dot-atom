@@ -10,7 +10,7 @@
   'fontFamily': 'Ricty'
   'showIndentGuide': true
   'showInvisibles': true
-  'fontSize': 13
+  'fontSize': 14
 'core':
   'themes': [
     'atom-dark-ui'
