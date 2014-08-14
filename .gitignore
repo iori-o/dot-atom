@@ -6,3 +6,4 @@ dev
 packages/*
 npm-debug.log
 projects.cson
+atom-shell/*
