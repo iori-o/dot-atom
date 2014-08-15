@@ -31,12 +31,10 @@
   'userToken': 'a200929c1564ab8192b1358c08be2cf79065b83d'
 'travis-ci-status':
   'personalAccessToken': 'a3e950088735c2ae559c54c44d9bfbd67bb28d4e'
-
 'atom-lint':
   'ignoredNames': [
     'tmp/**'
   ]
-
 'rubocop':
   'path': '/Users/ONDA/.rbenv/shims/rubocop'
 'scss-lint':
@@ -50,6 +48,5 @@
   ]
 'csslint':
   'path': '/Users/ONDA/.nodebrew/current/lib/node_modules/csslint'
-
 'shellcheck':
   'path': 'linter-shellcheck'
