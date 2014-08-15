@@ -20,8 +20,8 @@
   'ctrl-cmd-i': 'auto-indent:apply'
   'cmd-m': 'minimap:toggle'
   'cmd-d': 'minimap:toggle-debug'
-  'ctrl-alt-[': 'lint:move-to-previous-violation'
-  'ctrl-alt-]': 'lint:move-to-next-violation'
+  'ctrl-alt-p': 'lint:move-to-previous-violation'
+  'ctrl-alt-n': 'lint:move-to-next-violation'
 
 '.editor:not(.mini)':
   'ctrl-S': 'snippets:expand'
