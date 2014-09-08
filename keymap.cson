@@ -23,6 +23,10 @@
   'ctrl-alt-p': 'lint:move-to-previous-violation'
   'ctrl-alt-n': 'lint:move-to-next-violation'
 
+  # for git blame
+  'ctrl-b': 'unset!'
+  'alt-cmd-b': 'git-blame:toggle'
+
 '.editor:not(.mini)':
   'ctrl-S': 'snippets:expand'
 
@@ -31,3 +35,27 @@
 
 '.workspace':
   'ctrl-alt-l': 'lint:toggle'
+
+'.platform-darwin':
+  # Open an empty pane and bring it to focus to do as you will.
+  # If there had to be only one way to split panes, this should have
+  # been it.
+  'cmd-k left':  'pane:split-left-creating-empty-pane'
+  'cmd-k right': 'pane:split-right-creating-empty-pane'
+  'cmd-k up':    'pane:split-up-creating-empty-pane'
+  'cmd-k down':  'pane:split-down-creating-empty-pane'
+
+  # Open a new pane and move the current editor tab to it.
+  'cmd-k m left':  'pane:split-left-moving-current-tab'
+  'cmd-k m right': 'pane:split-right-moving-current-tab'
+  'cmd-k m up':    'pane:split-up-moving-current-tab'
+  'cmd-k m down':  'pane:split-down-moving-current-tab'
+
+  # Atom's default behavior. "D" for duplicate the current tab.
+  # It's still there if you want it, I guess.
+  'cmd-k d left':  'pane:split-left'
+  'cmd-k d right': 'pane:split-right'
+  'cmd-k d up':    'pane:split-up'
+  'cmd-k d down':  'pane:split-down'
+
+  'cmd-k x'
