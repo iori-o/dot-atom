@@ -1,53 +1,56 @@
-'exception-reporting':
-  'userId': 'd16219e3-4bf4-7664-6165-a798a328c2c1'
-'release-notes':
-  'viewedVersion': '0.95.0-7cdaaf2'
-'welcome':
-  'showOnStartup': false
-'metrics':
-  'userId': 'b4de144f5c2e8756333e18bc52fa2795ead5e61d'
-'editor':
-  'fontFamily': 'Ricty'
-  'showIndentGuide': true
-  'showInvisibles': true
-  'fontSize': 14
-  'invisibles': {}
-'core':
-  'themes': [
-    'atom-dark-ui'
-    'railscast-theme'
-  ]
-  'useReactEditor': true
-'autocomplete-plus':
-  'includeCompletionsFromAllBuffers': true
-  'liveCompletion': true
-'highlight-line':
-  'enableUnderline': true
-'recent-files':
-  'updated': false
-'tree-view': {}
-'rspec':
-  'command': 'bundle exec rspec'
-'gist-it':
-  'userToken': 'a200929c1564ab8192b1358c08be2cf79065b83d'
-'travis-ci-status':
-  'personalAccessToken': 'a3e950088735c2ae559c54c44d9bfbd67bb28d4e'
-'atom-lint':
-  'ignoredNames': [
-    'tmp/**'
-  ]
-'rubocop':
-  'path': '/Users/ONDA/.rbenv/shims/rubocop'
-'scss-lint':
-  'path': '/Users/ONDA/.rbenv/shims/scss-lint'
-'jshint':
-  'path': '/Users/ONDA/.nodebrew/current/bin/jshint'
-'coffeelint':
-  'path': '/Users/ONDA/.nodebrew/current/bin/coffeelint'
-  'ignoredNames': [
-    'coffeelint/specific/excluded/file.coffee'
-  ]
-'csslint':
-  'path': '/Users/ONDA/.nodebrew/current/lib/node_modules/csslint'
-'shellcheck':
-  'path': 'linter-shellcheck'
+"*":
+  "exception-reporting":
+    userId: "d16219e3-4bf4-7664-6165-a798a328c2c1"
+  "release-notes":
+    viewedVersion: "0.95.0-7cdaaf2"
+  welcome:
+    showOnStartup: false
+  metrics:
+    userId: "b4de144f5c2e8756333e18bc52fa2795ead5e61d"
+  editor:
+    fontFamily: "Ricty Diminished Discord"
+    fontSize: 14
+    showInvisibles: true
+    showIndentGuide: true
+    softWrap: true
+    invisibles: {}
+  core:
+    themes: [
+      "atom-dark-ui"
+      "zenburn"
+    ]
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: true
+  "highlight-line":
+    enableUnderline: true
+  "recent-files":
+    updated: false
+  rspec:
+    command: "bundle exec rspec"
+  "gist-it":
+    userToken: "a200929c1564ab8192b1358c08be2cf79065b83d"
+  "travis-ci-status":
+    personalAccessToken: "a3e950088735c2ae559c54c44d9bfbd67bb28d4e"
+  "atom-lint":
+    ignoredNames: [
+      "tmp/**"
+    ]
+  rubocop:
+    path: "/Users/ONDA/.rbenv/shims/rubocop"
+  "scss-lint":
+    path: "/Users/ONDA/.rbenv/shims/scss-lint"
+  jshint:
+    path: "/Users/ONDA/.nodebrew/current/bin/jshint"
+  coffeelint:
+    path: "/Users/ONDA/.nodebrew/current/bin/coffeelint"
+    ignoredNames: [
+      "coffeelint/specific/excluded/file.coffee"
+    ]
+  csslint:
+    path: "/Users/ONDA/.nodebrew/current/lib/node_modules/csslint"
+  shellcheck:
+    path: "linter-shellcheck"
+  "git-blame":
+    customCommitUrlTemplateString: "https://github.com/<%- project %>/<%- repo %>/commit/<%- revision %>"
+    useCustomUrlTemplateIfStandardRemotesFail: true
+  linter: {}
