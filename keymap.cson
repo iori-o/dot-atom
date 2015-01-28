@@ -22,10 +22,8 @@
   'cmd-d': 'minimap:toggle-debug'
   'ctrl-alt-p': 'lint:move-to-previous-violation'
   'ctrl-alt-n': 'lint:move-to-next-violation'
-
-  # for git blame
   'ctrl-b': 'unset!'
-  'alt-cmd-b': 'git-blame:toggle'
+  'ctrl-alt-b': 'git-blame:toggle'
 
 '.editor:not(.mini)':
   'ctrl-S': 'snippets:expand'
@@ -58,4 +56,4 @@
   'cmd-k d up':    'pane:split-up'
   'cmd-k d down':  'pane:split-down'
 
-  'cmd-k x'
+  'cmd-k x': 'pane:close'
