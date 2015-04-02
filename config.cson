@@ -9,12 +9,15 @@
     userId: "b4de144f5c2e8756333e18bc52fa2795ead5e61d"
   editor:
     fontFamily: "Ricty Diminished Discord"
-    fontSize: 14
+    fontSize: 13
     showInvisibles: true
     showIndentGuide: true
     softWrap: true
     invisibles: {}
   core:
+    disabledPackages: [
+      "git-log"
+    ]
     themes: [
       "atom-dark-ui"
       "zenburn"
@@ -53,4 +56,9 @@
   "git-blame":
     customCommitUrlTemplateString: "https://github.com/<%- project %>/<%- repo %>/commit/<%- revision %>"
     useCustomUrlTemplateIfStandardRemotesFail: true
+  "linter-rubocop":
+    rubocopExecutablePath: "/Users/ONDA/.rbenv/shims/rubocop"
   linter: {}
+  "git-log": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
