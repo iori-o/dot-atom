@@ -16,7 +16,7 @@
 #   'ctrl-P': 'core:move-up'
 #   'ctrl-p': 'core:move-down'
 #
-'.editor':
+'.atom-text-editor':
   'ctrl-cmd-i': 'auto-indent:apply'
   'cmd-m': 'minimap:toggle'
   'cmd-d': 'minimap:toggle-debug'
@@ -25,13 +25,13 @@
   'ctrl-b': 'unset!'
   'ctrl-alt-b': 'git-blame:toggle'
 
-'.editor:not(.mini)':
+'.atom-text-editor:not(.mini)':
   'ctrl-S': 'snippets:expand'
 
 ".autocomplete-plus input.hidden-input":
   "enter": "autocomplete-plus:confirm"
 
-'.workspace':
+'.atom-workspace':
   'ctrl-alt-l': 'lint:toggle'
 
 '.platform-darwin':
